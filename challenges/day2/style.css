@@ -23,53 +23,94 @@ body::-webkit-scrollbar-thumb{
     background-color: #6649b8;
 }
 
-main{
-    margin-left: 5rem;
-    padding: 1rem;
-    text-align: justify;
-}
+
 
 .navbar{
-    width: 5rem;
-    position: fixed;
     background-color: var(--bg-primary);
-    transition: width  1s  ease ;
+
 }
 .navbar-nav{
     list-style: none;
     display: flex;
-    flex-direction: column;
-    height: 100vh;
 }
-.nav-item{
-    margin-top: 10px;
-    margin-bottom: 3px;
-    width: 100%;
-}
+
 .nav-item a{
     text-decoration: none;
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    /* text-align: center; */
+    width: 100%;
     color: var(--text-primary);
 }
-.nav-item:last-child{
-    margin-top: auto;
-}
-i{
-    text-align: center;
-    font-size: 3em;
-    flex: 1;
-}
-span{
-    flex: 1;
-}
+
 .link-text{
     display: none;
 }
-.navbar:hover .link-text{
-    display: block;
+
+
+@media only screen and (max-width:600px) {
+
+    .navbar{
+        width: 100vw;
+        bottom: 0;
+        position: fixed;
+    }
+    .navbar-nav{
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    i{
+        width: 50%;
+        font-size: 3em;
+        flex: 1;
+        padding-left: 1rem;
+    }
+    span{
+        flex: 1;
+    }
 }
-.navbar:hover{
-    width: 10rem;
+@media only screen and (min-width:600px) {
+    main{
+        margin-left: 5rem;
+        padding: 1rem;
+        text-align: justify;
+    }
+    .navbar{
+        width: 5rem;
+        position: fixed;
+        transition: width  200ms  ease ;
+    }
+    .navbar-nav{
+        height: 100vh;
+        flex-direction: column;
+    }
+    .nav-item{
+        margin-top: 10px;
+        margin-bottom: 3px;
+    }
+
+    .nav-item:last-child{
+        margin-top: auto;
+    
+    }
+    i{
+        width: 50%;
+        font-size: 3em;
+        flex: 1;
+        padding-left: 1rem;
+    }
+    span{
+        flex: 1;
+    }
+    .navbar:hover .link-text{
+        display: block;
+    }
+    .navbar:hover{
+        width: 10rem;
+    }
 }
