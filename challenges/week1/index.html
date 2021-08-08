@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c9b553eee8.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#" class="bubble" id="bubble0" onclick="move('0')"><i
+                            class="fas fa-image"></i><span>Figuras</span></a></li>
+                <li><a href="#" class="bubble" id="bubble1" onclick="move('1')"><i
+                            class="fas fa-icons"></i><span>Ícones</span></a></li>
+                <li><a href="#" class="bubble" id="bubble2" onclick="move('2')"><i
+                            class="fas fa-spinner"></i><span>Loading</span></a></li>
+                <li><a href="#" class="bubble" id="bubble3" onclick="move('3')"><i
+                            class="far fa-user-circle"></i><span>Sobre</span></a></li>
+            </ul>
+        </nav>
+        <main id="content">
+            <h1 id="titulo">IMAGENS</h1>
+            <div id="material">
+                <div id="images">
+                    <div class='container'>
+                        <div class='box1'></div>
+                        <div class='box2'></div>
+                        <div class='boxCenter'></div>
+                    </div>
+                    <div class='container2'>
+                        <div class='ball'></div>
+                        <div class='ball2'></div>
+                        <div class='ball3'></div>
+                        <div class='ball4'></div>
+                        <div class='ballSmall1'></div>
+                        <div class='ballSmall2'></div>
+                        <div class='card'></div>
+                        <div class='rightCard'></div>
+                    </div>
+                </div>
+                <div id="icon" class="social">
+                    <div class="move social">
+                        <a aria-hidden="true" style="--i:-2; --j:4"></a>
+                        <a aria-hidden="true" style="--i:-1; --j:3"></a>
+                        <a aria-hidden="true" style="--i:0; --j:2"></a>
+                        <a aria-hidden="true" style="--i:1; --j:1"></a>
+                        <a href="https://github.com/Renato-Nakamura" class="fa fa-github" aria-hidden="true" style="--i:2; --j:0"></a>
+                    </div>
+                </div>
+                <div id="loading">
+                    <div class="center">
+                        <div class="text">CARREGANDO</div>
+                        <div class="ring"></div>
+                    </div>
+                </div>
+                <div id="about">
+                    <p>Essa página foi criada para treinar todo meu conhecimento adquirido ao longo da semana, nela além de ver os exercícios puros eu mesclei ambas navbar e adicionei as animações com GSAP da minha maneira</p>
+                    <h2>
+                        Espero que tenha gostado do que viu! Muito obrigado pela visita!!
+                    </h2>
+                </div>
+            </div>
+        </main>
+    </section>
+</body>
+
+</html>

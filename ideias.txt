@@ -1,0 +1,16 @@
+efeito paralax
+animação
+svg
+modo dark
+conteudo ir aparecendo onscroll
+multicolored text https://codepen.io/TajShireen/details/YzZmbep
+tab bar https://codepen.io/flavio_amaral/pen/xxgYGrR
+algo 3d
+seguindo o mouse https://codepen.io/carolineartz/pen/rNaGQYo
+calculadora(só que utilizavel) https://codepen.io/tirsolecointere/pen/zYwWbWv
+caminho svg animado https://codepen.io/Zaku/pen/ALChE
+slide de imagem https://www.youtube.com/watch?v=s1EwjTEnbOY
+img saindo da caixa https://www.youtube.com/watch?v=mi-p_q2J8Ek
+barra de pesquisa https://www.youtube.com/watch?v=RctaFustg5w
+card hover effects https://www.youtube.com/watch?v=MnMxRkX7DvU
+
