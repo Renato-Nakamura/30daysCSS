@@ -1,4 +1,4 @@
-# 30 dias de CSS
+# 7 dias de CSS
 
 Desafio que encontrei do [Github da Milena Carecho](https://github.com/MilenaCarecho/30diasDeCSS) e achei ótimo para praticar conceitos básicos de HTML,CSS e JS. A minha ideia é desenvolver conceitos que não possuo muita pratica e aprender tecnologias novas que possam me auxiliar nessa vida de dev front-end.
 
